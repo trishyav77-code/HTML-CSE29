@@ -1,0 +1,7 @@
+<!--block elements-->
+<h1> this is a block elements</h1>
+<article>
+    <h1>this is an article</h1>
+</article>
+    <!--inline elements-->
+    <a href="#">This is a link</a>

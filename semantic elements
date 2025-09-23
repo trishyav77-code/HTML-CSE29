@@ -1,0 +1,21 @@
+<head>
+    <h1>this is a header</h1>
+    <p>This is a paragraph</p>
+
+</head>
+<nav>
+    <h1>this is a nav</h1>
+    <p>This is a paragraph</p>
+</nav>
+<section>
+    <h1>this is a section</h1>
+    <p>This is a paragraph</p>
+</section>
+<article>
+    <h1>this is an article</h1>
+    <p>This is a paragraph</p>
+</article>
+<aside>
+    <h1>this is an aside</h1>
+    <p>This is a paragraph</p>
+</aside>
