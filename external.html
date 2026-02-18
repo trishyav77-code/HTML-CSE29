@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Product Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+border:2px solid#000;
+    width: 100%;
+    margin: 50px auto;
+     display: flex;
+   justify-content: space-between;
+        }
+
+        .product-card {
+     width: 40%;
+height: 500px;
+        background-color: white;
+       border: 2px solid #ddd;
+            /* border-radius: 10px; */
+       padding: 20px;
+       border-radius: 12px;
+     box-sizing: border-box;
+            text-align: center;
+        }
+
+ .product-card img {
+     width: 180px;
+box-shadow:#9a8e8e;
+            height: 250px;
+      border: 1px solid #ccc;
+   padding: 5px;
+        }
+
+        .product-title {
+   color: #222;
+            font-size: 20px;
+            margin: 15px 0 10px;
+        }
+
+        .price {
+            color: green;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            color: #555;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            background-color: #ff6600;
+            color: white;
+      padding: 10px 20px;
+            border: none;
+      font-size: 14px;
+ cursor: pointer;
+    border-radius: 5px;
+        }
+
+        /* .btn:hover {
+            background-color: #e65c00;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Product 1 -->
+  <div class="product-card">
+   <img src="https://tse4.mm.bing.net/th/id/OIP.VKFELDBwHpXMHsIC9LOQ8wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Sneakers">
+  <h3 class="product-title">Stylish Sneakers</h3>
+     <div class="price">₹1999</div>
+     <p class="description">Comfortable and trendy sneakers for daily wear.</p>
+       <button class="btn">Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+   <div class="product-card">
+ <img src="https://cdn.mos.cms.futurecdn.net/R7PtczWyuaUi7tyb4VfcfK.jpg" alt="Watch">
+    <h3 class="product-title">Smart Watch</h3>
+            <div class="price">₹2999</div>
+   <p class="description">Track fitness, calls and notifications easily.</p>
+            <button class="btn">Add to Cart</button>
+   </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://shopatsc.com/cdn/shop/files/CH520_A__2500x2500_3981f43e-bf07-4246-98fd-42a92f3c33e8.jpg?v=1745490430" alt="Headphones">
+            <h3 class="product-title">Wireless Headphones</h3>
+            <div class="price">₹1499</div>
+            <p class="description">High-quality sound with deep bass experience.</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
